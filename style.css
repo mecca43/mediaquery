@@ -1,0 +1,41 @@
+#container4{
+    flex-direction:column;
+}
+
+
+#header{
+    background-color: #b588e7;
+    font-size: 150%;
+    padding: 1px;
+    text-align: center;
+    display: flex;
+}
+
+#sidebar{
+    background-color: #e3b957;
+    height: 600px;
+    width: 400px;
+    text-align: center;
+}
+
+#main{
+    background-color: #a7dc8a;
+    text-align: center;
+}
+
+#widget{
+    background-color: #eb867c;
+    text-align: center;
+}
+
+#statistics{
+    background-color: #91b7e8;
+    text-align: center;
+    display: flex;
+}
+
+#footer{
+    background-color: #b588e7;
+    text-align: center;
+    display: flex;
+}
