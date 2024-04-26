@@ -1,41 +1,105 @@
-#container4{
-    flex-direction:column;
+#container{
+    border: 3px solid black;
 }
 
-
-#header{
+header{
     background-color: #b588e7;
-    font-size: 150%;
-    padding: 1px;
     text-align: center;
-    display: flex;
+    padding: 1px;
 }
 
 #sidebar{
     background-color: #e3b957;
-    height: 600px;
-    width: 400px;
+    padding: 10px;
     text-align: center;
+    width: 25%;
+    height: 500px;
+    
 }
 
 #main{
     background-color: #a7dc8a;
     text-align: center;
+    height: 300px;
 }
 
 #widget{
     background-color: #eb867c;
     text-align: center;
+    flex-direction: row;
+    width: 50%;
+    height: 220px;
 }
 
 #statistics{
     background-color: #91b7e8;
     text-align: center;
+    width:50%;
+}
+
+footer{
+    background-color: #b588e7;
+    text-align: center;
+    padding: 1px;
+}
+
+.kozepsoresz{
+   display: flex;
+}
+
+#jobboldali{
+width: 75%;
+    
+
+}
+
+#kisresz{
     display: flex;
 }
 
-#footer{
-    background-color: #b588e7;
-    text-align: center;
-    display: flex;
+@media only screen and (max-width: 900px){
+
+.kozepsoresz{
+    flex-direction: column;
+    width: 900px;
+}
+
+#jobboldali{
+    flex-direction: column;
+    width: 900px;
+}
+
+#kisresz{
+    flex-direction: column;
+    width: 900px;
+}
+
+footer{
+    width: 900px;
+}
+
+header{
+    width: 900px;
+}
+
+#sidebar{
+    width: 900px;
+    height: 60px;
+}
+
+#main{
+    width: 900px;
+    height: 350px;
+}
+
+#widget{
+    width: 900px;
+    height: 140px;
+}
+
+#statistics{
+    width: 900px;
+    height: 140px;
+}
+
 }
